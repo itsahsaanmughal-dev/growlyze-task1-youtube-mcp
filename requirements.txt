@@ -1,0 +1,4 @@
+fastmcp>=0.1.0
+google-api-python-client>=2.100.0
+youtube-transcript-api>=0.6.2
+uvicorn>=0.29.0
