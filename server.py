@@ -44,7 +44,6 @@ def get_video_transcript(video_id: str) -> str:
 
 if __name__ == "__main__":
     import os
-    # Agar Railway/Cloud par chale ga toh SSE use karega, Claude Desktop par direct STDIO
     transport = os.getenv("MCP_TRANSPORT", "stdio")
     if transport == "sse":
         port = int(os.getenv("PORT", 8080))
